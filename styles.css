@@ -1,0 +1,154 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+
+}
+
+#navbar{
+    width: 100%;
+    height:50px;
+    background-color:#fff;
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+#navbar > div{
+    height: 100%;
+    padding:20px;
+}
+
+#navbar > div > a{
+    padding:15px 5px 15px 5px;
+    text-decoration: none;
+    font-size: 13px;
+    color:#444141;
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
+a>img{
+    width:20px;
+    height:15px;
+
+    
+}
+ #navbar > div> a#si-button{
+    font-weight: bold;
+    color:white;
+    background-color:#4285f4;
+    padding:8px 13px 8px 13px;
+    margin-right: 10px;
+    border-radius: 3px;
+    }
+
+
+#central-form{
+    width:600px;
+    height: 300px;
+    padding:0;
+    margin:auto;
+    margin-top:5%;
+    display:grid;
+    grid-template-rows:150px 130px;
+    
+}
+
+
+div#form{
+    margin-top:5px;
+}
+
+#searchbar{
+    width: 95%;    
+    padding:0px 5px;
+    margin:auto;
+    border-radius: 50px;
+    border:1px solid #e0e0e0;
+    display:grid;
+    grid-template-columns: 30px 500px 40px;
+    
+}
+#searchbar:hover{
+    box-shadow: 0px 0px 5px 0px rgba(209, 204, 204, 0.75);
+}
+#searchbar > input{
+    width:80%;
+    padding: 16px;
+    border: none;
+}
+#searchbar>input:focus{
+    outline: none;
+    
+}
+
+#search-icon{
+    width:35px;    
+    align-self: center;    
+}
+#microphone{
+    width:15px;    
+    align-self: center; 
+}
+
+form > #buttons {
+    width:45%;
+    height:100px;
+    margin:auto;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form > #buttons > button{
+    width:130px;
+    height:37px;
+    border:none;
+    padding: 10px;
+    border-radius:5px;  
+    color:grey;
+    font-size:14px; 
+}
+
+form > #buttons > button:hover{
+    color:#222;
+    cursor:pointer;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+}
+
+#logo > img{
+    display:block;
+    width: 45%;
+    margin:auto;
+    margin-top:30px;
+}
+
+#footer{
+    width:100%;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-top:1px solid #e0e0e0;
+    position:fixed;
+    bottom:0;
+    
+       
+}
+#footer > div{
+    margin-top:10px;
+    padding:0px 20px;
+    font-size:14px;
+}
+#footer > div > a{
+    padding:14px;
+    text-decoration: none;
+    color:#5f6368;
+}
+
+#footer > div > a:hover{
+    text-decoration: underline;
+}
